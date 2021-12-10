@@ -1,0 +1,64 @@
+<div>
+  <app-linha>
+
+    <app-visor [visorNumbers]='showNumbers'>
+
+
+    </app-visor>
+
+  </app-linha>
+
+
+  <app-linha>
+
+    <app-botao [button]="'1'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao [button]="'2'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao [button]="'3'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao [button]="'+'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+  </app-linha>
+
+
+  <app-linha>
+
+    <app-botao [button]="'4'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao [button]="'5'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao [button]="'6'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao [button]="'-'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+  </app-linha>
+
+
+  <app-linha>
+
+    <app-botao [button]="'7'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao [button]="'8'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao [button]="'9'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao [button]="'*'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+  </app-linha>
+
+  <app-linha>
+
+    <app-botao [button]="'0'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao [button]="'/'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao [button]="'='" (onClick)="showResult()"></app-botao>
+
+  </app-linha>
+
+  <app-linha>
+    <app-botao [button]="'AC'" (onClick)="deleteNumbers()"></app-botao>
+  </app-linha>
+
+</div>
