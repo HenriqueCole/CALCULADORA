@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.igual{
+    margin: 0px 0px 0px 80px;
+    background-color: rgb(211, 142, 14);
+    border-radius: 210px;
+}
+
+.one{
+    background-color: rgb(143, 140, 140);
+    border-radius: 210px;
+}
+
+.two{
+    background-color: rgb(143, 140, 140);
+    border-radius: 210px;
+}
+
+.three{
+    background-color: rgb(143, 140, 140);
+    border-radius: 210px;
+}
+
+.four{
+    background-color: rgb(143, 140, 140);
+    border-radius: 210px;
+}
+
+.five{
+    background-color: rgb(143, 140, 140);
+    border-radius: 210px;
+}
+
+.six{
+    background-color: rgb(143, 140, 140);
+    border-radius: 210px;
+}
+
+.seven{
+    background-color: rgb(143, 140, 140);
+    border-radius: 210px;
+}
+
+.eight{
+    background-color: rgb(143, 140, 140);
+    border-radius: 210px;
+}
+
+.nine{
+    background-color: rgb(143, 140, 140);
+    border-radius: 210px;
+}
+
+.zero{
+    background-color: rgb(143, 140, 140);
+    border-radius: 210px;
+}
+
+.mais{
+    background-color: rgb(211, 142, 14);
+    border-radius: 210px;
+}
+
+.dividido{
+    background-color: rgb(211, 142, 14);
+    border-radius: 210px;
+}
+
+.vezes{
+    background-color: rgb(211, 142, 14);
+    border-radius: 210px;
+}
+
+.menos{
+    background-color: rgb(211, 142, 14);
+    border-radius: 210px;
+}
+
+.AC {
+    background-color: rgb(211, 142, 14);
+    width: 210px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 210px;
+}

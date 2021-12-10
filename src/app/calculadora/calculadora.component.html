@@ -11,54 +11,54 @@
 
   <app-linha>
 
-    <app-botao [button]="'1'" (onClick)="clickedOnDiv($event)"></app-botao>
+    <app-botao class="one" [button]="'1'" (onClick)="clickedOnDiv($event)"></app-botao>
 
-    <app-botao [button]="'2'" (onClick)="clickedOnDiv($event)"></app-botao>
+    <app-botao class="two" [button]="'2'" (onClick)="clickedOnDiv($event)"></app-botao>
 
-    <app-botao [button]="'3'" (onClick)="clickedOnDiv($event)"></app-botao>
+    <app-botao class="three" [button]="'3'" (onClick)="clickedOnDiv($event)"></app-botao>
 
-    <app-botao [button]="'+'" (onClick)="clickedOnDiv($event)"></app-botao>
-
-  </app-linha>
-
-
-  <app-linha>
-
-    <app-botao [button]="'4'" (onClick)="clickedOnDiv($event)"></app-botao>
-
-    <app-botao [button]="'5'" (onClick)="clickedOnDiv($event)"></app-botao>
-
-    <app-botao [button]="'6'" (onClick)="clickedOnDiv($event)"></app-botao>
-
-    <app-botao [button]="'-'" (onClick)="clickedOnDiv($event)"></app-botao>
+    <app-botao class="mais" [button]="'+'" (onClick)="clickedOnDiv($event)"></app-botao>
 
   </app-linha>
 
 
   <app-linha>
 
-    <app-botao [button]="'7'" (onClick)="clickedOnDiv($event)"></app-botao>
+    <app-botao class="four" [button]="'4'" (onClick)="clickedOnDiv($event)"></app-botao>
 
-    <app-botao [button]="'8'" (onClick)="clickedOnDiv($event)"></app-botao>
+    <app-botao class="five" [button]="'5'" (onClick)="clickedOnDiv($event)"></app-botao>
 
-    <app-botao [button]="'9'" (onClick)="clickedOnDiv($event)"></app-botao>
+    <app-botao class="six" [button]="'6'" (onClick)="clickedOnDiv($event)"></app-botao>
 
-    <app-botao [button]="'*'" (onClick)="clickedOnDiv($event)"></app-botao>
+    <app-botao class="menos" [button]="'-'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+  </app-linha>
+
+
+  <app-linha>
+
+    <app-botao class="seven" [button]="'7'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao class="eight" [button]="'8'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao class="nine" [button]="'9'" (onClick)="clickedOnDiv($event)"></app-botao>
+
+    <app-botao class="vezes" [button]="'*'" (onClick)="clickedOnDiv($event)"></app-botao>
 
   </app-linha>
 
   <app-linha>
 
-    <app-botao [button]="'0'" (onClick)="clickedOnDiv($event)"></app-botao>
+    <app-botao class="zero" [button]="'0'" (onClick)="clickedOnDiv($event)"></app-botao>
 
-    <app-botao [button]="'/'" (onClick)="clickedOnDiv($event)"></app-botao>
+    <app-botao class="dividido" [button]="'/'" (onClick)="clickedOnDiv($event)"></app-botao>
 
-    <app-botao [button]="'='" (onClick)="showResult()"></app-botao>
+    <app-botao class="igual" [button]="'='" (onClick)="showResult()"></app-botao>
 
   </app-linha>
 
   <app-linha>
-    <app-botao [button]="'AC'" (onClick)="deleteNumbers()"></app-botao>
+    <app-botao class="AC" [button]="'AC'" (onClick)="deleteNumbers()"></app-botao>
   </app-linha>
 
 </div>
