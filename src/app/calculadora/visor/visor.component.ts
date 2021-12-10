@@ -11,5 +11,4 @@ export class VisorComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
