@@ -4,86 +4,218 @@
 }
 
 .igual{
-    margin: 0px 0px 0px 80px;
+    margin: 0px 0px 0px 100px;
     background-color: rgb(211, 142, 14);
     border-radius: 210px;
+    color: white;
+}
+.igual:hover{
+    background-color: rgb(255, 254, 253);
+    color: rgb(211, 142, 14);
+    border-radius: 210px;
+    transition: 0.5s;
 }
 
+
 .one{
-    background-color: rgb(143, 140, 140);
+    background-color: rgb(37, 31, 31);
+    color: white;
+    border-radius: 210px;
+    transition: 0.5s;
+}
+
+.one:hover{
+    background-color: rgb(82, 67, 67);
+    color: white;
     border-radius: 210px;
 }
 
 .two{
-    background-color: rgb(143, 140, 140);
+    background-color: rgb(37, 31, 31);
+    color: white;
     border-radius: 210px;
+}
+
+.two:hover{
+    background-color: rgb(82, 67, 67);
+    color: white;
+    border-radius: 210px;
+    transition: 0.5s;
 }
 
 .three{
-    background-color: rgb(143, 140, 140);
+    background-color: rgb(37, 31, 31);
+    color: white;
     border-radius: 210px;
+}
+
+.three:hover{
+    background-color: rgb(82, 67, 67);
+    color: white;
+    border-radius: 210px;
+    transition: 0.5s;
 }
 
 .four{
-    background-color: rgb(143, 140, 140);
+    background-color: rgb(37, 31, 31);
+    color: white;
     border-radius: 210px;
+}
+
+.four:hover{
+    background-color: rgb(82, 67, 67);
+    color: white;
+    border-radius: 210px;
+    transition: 0.5s;
 }
 
 .five{
-    background-color: rgb(143, 140, 140);
+    background-color: rgb(37, 31, 31);
+    color: white;
     border-radius: 210px;
+}
+
+.five:hover{
+    background-color: rgb(82, 67, 67);
+    color: white;
+    border-radius: 210px;
+    transition: 0.5s;
 }
 
 .six{
-    background-color: rgb(143, 140, 140);
+    background-color: rgb(37, 31, 31);
+    color: white;
     border-radius: 210px;
 }
+.six:hover{
+    background-color: rgb(82, 67, 67);
+    color: white;
+    border-radius: 210px;
+    transition: 0.5s;
+}
+
 
 .seven{
-    background-color: rgb(143, 140, 140);
+    background-color: rgb(37, 31, 31);
+    color: white;
     border-radius: 210px;
 }
+.seven:hover{
+    background-color: rgb(82, 67, 67);
+    color: white;
+    border-radius: 210px;
+    transition: 0.5s;
+}
+
 
 .eight{
-    background-color: rgb(143, 140, 140);
+    background-color: rgb(37, 31, 31);
+    color: white;
     border-radius: 210px;
 }
+.eight:hover{
+    background-color: rgb(82, 67, 67);
+    color: white;
+    border-radius: 210px;
+    transition: 0.5s;
+}
+
 
 .nine{
-    background-color: rgb(143, 140, 140);
+    background-color: rgb(37, 31, 31);
+    color: white;
     border-radius: 210px;
+}
+.nine:hover{
+    background-color: rgb(82, 67, 67);
+    color: white;
+    border-radius: 210px;
+    transition: 0.5s;
 }
 
+
 .zero{
-    background-color: rgb(143, 140, 140);
+    background-color: rgb(37, 31, 31);
+    color: white;
     border-radius: 210px;
 }
+.zero:hover{
+    background-color: rgb(82, 67, 67);
+    color: white;
+    border-radius: 210px;
+    transition: 0.5s;
+}
+
 
 .mais{
     background-color: rgb(211, 142, 14);
+    color: white;
     border-radius: 210px;
 }
+.mais:hover{
+    background-color: rgb(255, 254, 253);
+    color: rgb(211, 142, 14);
+    border-radius: 210px;
+    transition: 0.5s;
+}
+
 
 .dividido{
     background-color: rgb(211, 142, 14);
+    color: white;
     border-radius: 210px;
 }
+.dividido:hover{
+    background-color: rgb(255, 254, 253);
+    color: rgb(211, 142, 14);
+    border-radius: 210px;
+    transition: 0.5s;
+}
+
 
 .vezes{
     background-color: rgb(211, 142, 14);
+    color: white;
     border-radius: 210px;
 }
+.vezes:hover{
+    background-color: rgb(255, 254, 253);
+    color: rgb(211, 142, 14);
+    border-radius: 210px;
+    transition: 0.5s;
+}
+
 
 .menos{
     background-color: rgb(211, 142, 14);
+    color: white;
     border-radius: 210px;
 }
+.menos:hover{
+    background-color: rgb(255, 254, 253);
+    color: rgb(211, 142, 14);
+    border-radius: 210px;
+    transition: 0.5s;
+}
+
 
 .AC {
-    background-color: rgb(211, 142, 14);
+    background-color: rgb(110, 95, 95);
+    color: black;
     width: 210px;
     align-items: center;
     display: flex;
     justify-content: center;
     border-radius: 210px;
 }
+.AC:hover {
+    background-color: rgb(221, 205, 205);
+    color: black;
+    width: 210px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 210px;
+    transition: 0.5s;
+}
+
